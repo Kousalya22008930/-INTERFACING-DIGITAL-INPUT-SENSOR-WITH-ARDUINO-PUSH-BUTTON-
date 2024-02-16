@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE : 16-02-2024
+## NAME : KOUSALYA A.																			             
+## ROLLNUMBER : 212222230068
+## DEPARTMENT : ARTIFICIAL INTELLIGENCE AND DATA SCIENCE
 
 
 ## AIM:
@@ -62,24 +62,39 @@ FIGURE -03
 
 
 ## PROGRAM 
- 
- 
+```
+int led=3;
+int pushbutton=4;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
 
-
-
-
-
-
-
-
-
- 
- 
- 
-
+void loop()
+{
+  int pb;
+  pb=digitalRead(pushbutton);
+  if(pb==LOW)
+  {
+    digitalWrite(led,HIGH);
+    delay(500);
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+  else
+  {
+    digitalWrite(led,LOW);
+    delay(500);
+  }
+}
+```
 
 
 ## OUTPUT OF SIMULATION :
+![image](https://github.com/Kousalya22008930/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119389108/e94acf4c-1b53-44b8-8ad7-74835c949f1a)
 
-[My image](username.github.com/repository/img/image.jpg)
+![exp1robo](https://github.com/Kousalya22008930/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119389108/ace8b6bc-a909-40fa-936f-012fbc129660)
+![exp1robo1](https://github.com/Kousalya22008930/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119389108/65b6b4a6-ebfa-42bd-b5e7-1093a13ea1c7)
+
 
