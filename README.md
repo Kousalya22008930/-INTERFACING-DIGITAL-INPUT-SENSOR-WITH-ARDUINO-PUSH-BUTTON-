@@ -96,3 +96,5 @@ void loop()
 ![exp1robo](https://github.com/Kousalya22008930/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/119389108/ace8b6bc-a909-40fa-936f-012fbc129660)
 
 
+ ### Result:
+ Thus the simulation output is completed in tinker cad successfully.
